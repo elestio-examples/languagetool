@@ -10,7 +10,7 @@ Deploy LanguageTool server with CI/CD on Elestio
 
 # API usage
 
-Youy can now use LanguageTool REST API like this:
+You can now use LanguageTool REST API like this:
 
     curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d 'text=hey%20whats%20up&language=auto&enabledOnly=false' 'https://[CI_CD_DOMAIN]/v2/check'
 
