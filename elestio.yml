@@ -26,4 +26,6 @@ lifeCycleConfig:
   postRestoreCommand: "./scripts/postRestore.sh"
 webUI:
   - url: "https://[CI_CD_DOMAIN]"
-    label: "LanguageTool Admin"
+    label: "Nextcloud UI"
+    login: "root"
+    password: "[ADMIN_PASSWORD]"
