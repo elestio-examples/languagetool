@@ -2,7 +2,7 @@ version: "3"
 
 services:
   languagetool:
-    image: elestio/languagetool
+    image: elestio/languagetool:${SOFTWARE_VERSION_TAG}
     ports:
       - 172.17.0.1:8010:8010 # Using default port from the image
     environment:
